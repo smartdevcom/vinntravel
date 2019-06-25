@@ -1,0 +1,30 @@
+import config from './configs/Config';
+
+export default {
+	apiHost: config.apiHost,
+	root: '/',
+	index: '/index',
+	home: '/home',
+	search: '/search',
+	holidays: '/holidays',
+	holidayTypes: '/holidaytypes',
+	destinations: '/destinations',
+	brands: '/brands',
+	blog: '/blog',
+	news: '/news',
+	login: '/login',
+	register: '/register',
+	forgotMyPassword: '/forgot-my-password',
+	myAccount: '/account',
+	myOrders: '/account/orders',
+	myAddresses: '/account/addresses',
+	cart: '/cart',
+	wishList: '/wishlist',
+	privacyNotice: '/privacy-notice',
+	conditionsToUse: '/conditions-to-use',
+	about: '/about',
+	contact: '/contact',
+	siteMap: '/sitemap',
+	faq: '/faq',
+	help: '/help'
+};
